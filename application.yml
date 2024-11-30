@@ -1,2 +1,10 @@
-test:
-  data: default
+spring:
+  jpa:
+    properties:
+      show-sql: true
+      hibernate:
+        ddl-auto: none
+
+tenant:
+  package:
+    scan: com.whizzy.hrm
