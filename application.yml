@@ -2,7 +2,7 @@ spring:
   jpa:
     show_sql: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
 
 tenant:
   package:
